@@ -15,6 +15,7 @@ install:
   - export SIMPLE_SETTINGS=toto.settings
   - git clone --recursive https://www.github.com/b0n0n/test_proj1
   - ls -a
-  - ./toto/toto-run.py --step-name funktest --products ./toto/test --key ./toto/bob – echo
+  - ls toto
+  - ./toto/toto-run.py --step-name funktest --products ./test_proj1/test --key ./test_proj1/bob – echo
   - cd ..
 script: phpunit Test.php
