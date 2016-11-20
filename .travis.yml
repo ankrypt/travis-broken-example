@@ -12,5 +12,8 @@ install:
   - pwd
   - ls -a
   - sudo -H pip install -e . 
+  - export SIMPLE_SETTINGS=toto.settings
+  - git clone --recursive https://www.github.com/b0n0n/test_proj1
+  - ls -a
   - cd ..
 script: phpunit Test.php
