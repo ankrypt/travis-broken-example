@@ -16,6 +16,7 @@ install:
   - git clone --recursive https://www.github.com/b0n0n/test_proj1
   - ls -a
   - ls toto
+  - ls test_proj1
   - ./toto/toto-run.py --step-name funktest --products ./test_proj1/test --key ./test_proj1/bob – echo
   - cd ..
 script: phpunit Test.php
