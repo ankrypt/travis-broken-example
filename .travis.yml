@@ -18,6 +18,6 @@ install:
   - ls toto
   - ls test_proj1
   - sudo -H pip install pycrypto cryptography
-  - ./toto/toto-run.py --step-name funktest --products ./test_proj1/test --key ./../bob – echo
+  - ./toto/toto-run.py --step-name funktest --products ./test_proj1/test --key ./../bob -- echo
   - cd ..
 script: phpunit Test.php
