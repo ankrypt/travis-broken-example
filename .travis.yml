@@ -11,5 +11,5 @@ before_install:
 install:
   - pwd
   - ls -a
-  - sudo -H pip install foo 
+  - sudo -H pip install -e . 
 script: phpunit Test.php
