@@ -7,6 +7,7 @@ before_install:
   - git clone --recursive https://www.github.com/in-toto/in-toto.git
   - pwd
   - ls -a 
+  - ls in-toto
 install:
-  - pip install -e . 
+  - pip install -e in-toto/requirements.txt 
 script: phpunit Test.php
