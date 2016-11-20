@@ -6,6 +6,8 @@ php:
 before_install:
   - git clone --recursive https://www.github.com/in-toto/in-toto.git
   - pwd
+  - ls /toto/
+  - ls /in-toto/
 install:
   - pip install -e . 
 script: phpunit Test.php
