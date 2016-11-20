@@ -15,7 +15,7 @@ install:
   - export SIMPLE_SETTINGS=toto.settings
   - git clone --recursive https://www.github.com/b0n0n/test_proj1
   - ls -a
-  - ls toto
+  - ls toto/ssl_crypto/
   - ls test_proj1
   - sudo -H pip install pycrypto cryptography
   - ./toto/toto-run.py --step-name funktest --products ./test_proj1/test --key ./../bob -- echo
