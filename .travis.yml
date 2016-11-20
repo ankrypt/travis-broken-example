@@ -4,7 +4,7 @@ php:
   - 5.4
   - hhvm
 before_install:
-  - git clone --recursive https://www.github.com/in-toto/in-toto.git
+  - git clone -b develop --recursive https://www.github.com/in-toto/in-toto.git
   - pwd
   - ls -a
   - cd in-toto 
