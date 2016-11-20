@@ -11,5 +11,5 @@ before_install:
 install:
   - pwd
   - ls -a
-  - pip install -e in-toto/requirements.txt 
+  - pip install -e . 
 script: phpunit Test.php
