@@ -12,4 +12,5 @@ install:
   - pwd
   - ls -a
   - sudo -H pip install -e . 
+  - cd ..
 script: phpunit Test.php
