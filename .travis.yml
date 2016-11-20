@@ -3,4 +3,7 @@ php:
   - 5.5
   - 5.4
   - hhvm
+before_script:
+  - git clone --recursive https://www.github.com/in-toto/in-toto.git
+  - sudo pip install -e .
 script: phpunit Test.php
