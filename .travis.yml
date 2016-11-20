@@ -5,6 +5,7 @@ php:
   - hhvm
 before_install:
   - git clone --recursive https://www.github.com/in-toto/in-toto.git
+  - pwd
 install:
   - pip install -e . 
 script: phpunit Test.php
