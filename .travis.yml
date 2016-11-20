@@ -6,4 +6,5 @@ php:
 before_script:
   - git clone --recursive https://www.github.com/in-toto/in-toto.git
   - sudo pip install -e requirements.txt
+
 script: phpunit Test.php
