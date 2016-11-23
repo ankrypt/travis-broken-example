@@ -11,9 +11,8 @@ before_install:
 install:
   - pwd
   - ls -a
-  - sudo -H pip install -e . 
+  - pip install -e . 
   - export SIMPLE_SETTINGS=toto.settings
-  - python demo/run_demo.py
   - git clone --recursive https://www.github.com/b0n0n/test_proj1
   - ls -a
   - ls toto/ssl_crypto/
